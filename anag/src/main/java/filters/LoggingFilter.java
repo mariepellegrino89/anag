@@ -24,7 +24,6 @@ import java.util.*;
 
 import static com.google.common.base.Charsets.UTF_8;
 
-@Component
 public class LoggingFilter extends OncePerRequestFilter {
 
     @Autowired
